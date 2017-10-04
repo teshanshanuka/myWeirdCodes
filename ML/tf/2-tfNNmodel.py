@@ -10,7 +10,14 @@ from tensorflow.examples.tutorials.mnist import input_data
 5. feed forward + backprop = epoch
 """
 
+###########################################################
 mnist = input_data.read_data_sets("tmp/data/", one_hot=True)
+"""
+images are 28x28 pixels = 784
+img = mnist.train.images[1].reshape(28,28)
+plt.imshow(img)
+"""
+###########################################################
 
 """
 10 classes, 0-9
@@ -21,6 +28,9 @@ mnist = input_data.read_data_sets("tmp/data/", one_hot=True)
 .
 .
 9 = [0,0,0,0,0,0,0,0,0,1]
+so the following returns [ 0.,  0.,  0.,  1.,  0.,  0.,  0.,  0.,  0.,  0.]
+    which is corresponding to 3
+lbl = mnist.train.labels[1]
 """
 # Hidden layers
 n_nodes_hl1 = 500
