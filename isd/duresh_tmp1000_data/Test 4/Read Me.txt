@@ -1,0 +1,4 @@
+Test with cold juction cover with clay.
+Put the entire PCB in a card board box
+Diode average set
+Changed C14 from 0.01uF to 0.1uF 

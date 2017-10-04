@@ -1,0 +1,13 @@
+Test with cold juction cover with clay.
+Put the entire PCB in a card board box
+Diode average set
+Changed C14 from 0.01uF to 0.1uF
+Changed C14 back to normal value
+
+RTD
+Changed the RTD sense resistor to half of the value (50050Ohm) and increase the current to 100uA
+Changed the RTD sense resitor to 2001 and increased the current to 250uA
+
+Just a run with upto latest changes
+
+Changed the thermocouple col-juction diode from single ended to differential ( 4 & 5 are using external power supply )
